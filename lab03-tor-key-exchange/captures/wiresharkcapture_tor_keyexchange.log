@@ -1,0 +1,8 @@
+No.     Time           Source                Destination           Protocol Length Info
+     21 3.627655979    192.168.32.152        45.135.180.73         TLSv1.3  571    Client Hello (SNI=www.bprmdlps5q.com)
+
+Frame 21: 571 bytes on wire (4568 bits), 571 bytes captured (4568 bits) on interface ens33, id 0
+Ethernet II, Src: VMware_1e:f4:5e (00:0c:29:1e:f4:5e), Dst: VMware_f2:6a:b5 (00:50:56:f2:6a:b5)
+Internet Protocol Version 4, Src: 192.168.32.152, Dst: 45.135.180.73
+Transmission Control Protocol, Src Port: 55492, Dst Port: 9001, Seq: 1, Ack: 1, Len: 517
+Transport Layer Security

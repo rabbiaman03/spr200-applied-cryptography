@@ -1,0 +1,35 @@
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.182435067    192.168.32.152        95.216.198.252        TLSv1.3  571    Client Hello (SNI=www.4424fay4u.com)
+
+Frame 7: 571 bytes on wire (4568 bits), 571 bytes captured (4568 bits) on interface ens33, id 0
+Ethernet II, Src: VMware_1e:f4:5e (00:0c:29:1e:f4:5e), Dst: VMware_f2:6a:b5 (00:50:56:f2:6a:b5)
+Internet Protocol Version 4, Src: 192.168.32.152, Dst: 95.216.198.252
+Transmission Control Protocol, Src Port: 58146, Dst Port: 9001, Seq: 1, Ack: 1, Len: 517
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.186685255    192.168.32.152        51.15.59.15           TLSv1.3  571    Client Hello (SNI=www.nscx34ws2ct2l3iuk.com)
+
+Frame 9: 571 bytes on wire (4568 bits), 571 bytes captured (4568 bits) on interface ens33, id 0
+Ethernet II, Src: VMware_1e:f4:5e (00:0c:29:1e:f4:5e), Dst: VMware_f2:6a:b5 (00:50:56:f2:6a:b5)
+Internet Protocol Version 4, Src: 192.168.32.152, Dst: 51.15.59.15
+Transmission Control Protocol, Src Port: 53904, Dst Port: 443, Seq: 1, Ack: 1, Len: 517
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.386315676    51.15.59.15           192.168.32.152        TLSv1.3  1223   Server Hello, Change Cipher Spec, Application Data, Application Data, Application Data, Application Data
+
+Frame 11: 1223 bytes on wire (9784 bits), 1223 bytes captured (9784 bits) on interface ens33, id 0
+Ethernet II, Src: VMware_f2:6a:b5 (00:50:56:f2:6a:b5), Dst: VMware_1e:f4:5e (00:0c:29:1e:f4:5e)
+Internet Protocol Version 4, Src: 51.15.59.15, Dst: 192.168.32.152
+Transmission Control Protocol, Src Port: 443, Dst Port: 53904, Seq: 1, Ack: 518, Len: 1169
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.386452750    95.216.198.252        192.168.32.152        TLSv1.3  1218   Server Hello, Change Cipher Spec, Application Data, Application Data, Application Data, Application Data
+
+Frame 13: 1218 bytes on wire (9744 bits), 1218 bytes captured (9744 bits) on interface ens33, id 0
+Ethernet II, Src: VMware_f2:6a:b5 (00:50:56:f2:6a:b5), Dst: VMware_1e:f4:5e (00:0c:29:1e:f4:5e)
+Internet Protocol Version 4, Src: 95.216.198.252, Dst: 192.168.32.152
+Transmission Control Protocol, Src Port: 9001, Dst Port: 58146, Seq: 1, Ack: 518, Len: 1164
+Transport Layer Security
